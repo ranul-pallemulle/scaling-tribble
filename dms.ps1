@@ -444,5 +444,5 @@ GO
 
 "@
 
-Install-Module -Name SqlServer
+Import-Module -Name SQLServer
 Invoke-Sqlcmd -ServerInstance $serverName -Database $databaseName -Username $username -Password $password -Query $query -QueryTimeout 36000 -Verbose
